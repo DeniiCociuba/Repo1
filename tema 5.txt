@@ -1,0 +1,75 @@
+TEMA 5 :
+
+# ex 1.:
+def sum_2(a,b):
+    print(a+b)
+    
+sum_2(5,5)
+sum_2(79,93)
+
+10
+172
+
+
+# ex. 2
+
+def par_impar(a):
+    if a % 2 == 0:
+        return True
+    else:
+        return False
+print(par_impar(5))
+
+False
+
+
+# ex3. 
+def nume_complet(nume, prenume1, prenume2):
+    return (len(nume + prenume1 + prenume2))
+print(nume_complet ("Cociuba", "Denisa", "Daniela"))
+
+20
+
+# ex 4:
+
+def aria_dreptunghiului(a,b):
+    return (a * b)
+print(aria_dreptunghiului(7,9))
+
+63
+
+# ex 5:
+
+def aria_cercului(raza):
+    return (raza * raza)
+print(aria_cercului (5))
+
+25
+
+# ex 6:
+def bool_caracter(x, string):
+    if x in string:
+        return True
+    else:
+        return False
+print(bool_caracter('D', "Denisa"))
+
+True
+
+# ex 7:
+
+#ex 8:
+
+
+#ex. 9
+
+def mare_mic(x,y):
+    if x > y:
+        print(f"Primul nr {x} este mai mare decat al doilea nr {y}")
+    elif x < y:
+        print(f"Al doilea nr {y} este mai mare decat primul {x}")
+    else:
+        print(f"Numerele sunt egale.")
+mare_mic(5,10)
+
+Al doilea nr 10 este mai mare decat primul 5
